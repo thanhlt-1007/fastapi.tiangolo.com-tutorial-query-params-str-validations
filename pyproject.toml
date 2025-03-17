@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "query-params-str-validations"
+version = "0.1.0"
+description = ""
+authors = ["thanhlt-1007 <le.tan.thanh@sun-asterisk.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
