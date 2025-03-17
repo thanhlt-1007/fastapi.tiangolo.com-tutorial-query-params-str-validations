@@ -20,7 +20,7 @@ source ~/.bashrc
 poetry@1.8.2 --version  # Poetry (version 1.8.2)
 ```
 
-## virtualenvs
+## venv
 
 ```
 poetry@1.8.2 env use 3.11
@@ -33,3 +33,8 @@ poetry@1.8.2 run python --version
 poetry@1.8.2 install
 ```
 
+## FastAPI
+
+```sh
+poetry@1.8.2 run fastapi dev query_params_str_validations/main.py
+```
