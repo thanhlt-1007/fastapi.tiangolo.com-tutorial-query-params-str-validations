@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
+from typing import Annotated
 
 app = FastAPI()
 
@@ -9,7 +10,9 @@ async def get_hello():
     }
 
 @app.get("/items")
-async def get_items(q: str | None = None):
+async def get_items(
+    q: Annotated[str | None, Query(max_length=50)] = None,
+):
     items = {
         "items": [
             {
