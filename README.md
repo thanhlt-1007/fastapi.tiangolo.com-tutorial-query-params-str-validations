@@ -22,7 +22,7 @@ poetry@1.8.2 --version  # Poetry (version 1.8.2)
 
 ## venv
 
-```
+```sh
 poetry@1.8.2 env use 3.11
 poetry@1.8.2 run python --version
 ```
